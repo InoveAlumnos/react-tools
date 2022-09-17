@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+
+.rows{
+    height: 100%;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:10px;
+    /* border: 2px dashed rgb(117, 117, 117); */
+}
+
+.faderStyle {
+    height: 100px;
+    width: 100%;
+    border: 2px solid white;
+    background-color: rgba(134, 134, 134, 0.559);
+    border-radius: 15px;
+    padding: 10px;
+    transform: rotate(-90deg);
+}
+
+;
+
+.columnStyle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slidersRow {
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.level{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.level>div {
+    width: 60%;
+    background: rgba(0, 225, 255, 0.671);
+    border: 4px solid rgba(0, 242, 255);
+    font-family: 'Stalinist One', cursive;
+    color: rgb(40, 40, 40);
+}
+
+.peakMeter{
+    transform: rotate(-90deg);
+    
+}

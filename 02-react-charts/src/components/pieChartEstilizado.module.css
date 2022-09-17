@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&family=Open+Sans:wght@600&family=Roboto:wght@500&family=Stalinist+One&display=swap');
+
+.dashboard{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    gap: 40px;
+}
+
+.dataCard{    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 40px;
+    width: 600px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background: #2b2b2b;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding: 40px;
+}
+
+.chartContainer {
+    font-family: 'Roboto', sans-serif;
+    background: #2b2b2b;
+    border-radius: 15px;
+    text-shadow: -1px 2px 4px #00000044;
+    box-shadow: 7px 3px 17px 0px rgba(0, 0, 0, 0.333);
+}
+
+.pie {
+    font-family: 'Open Sans', sans-serif;
+    stroke: currentColor;
+    color: #fff;
+}
+
+.labels {
+    color: rgb(255, 255, 255);
+    stroke: none;
+    fill: currentColor;
+    text-shadow: -1px 2px 4px #000000ac;
+}
+
+.cell {
+    stroke: none;
+    stroke: #2b2b2b;
+    stroke-width: 14px;
+}
+
+.cellFx:hover {
+    stroke: rgb(48, 48, 48);
+    stroke-width: 0px;
+    transition: 0.3s;
+}
