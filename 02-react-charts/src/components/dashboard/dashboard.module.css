@@ -34,12 +34,11 @@
     font-family: 'Reem Kufi Ink', sans-serif;
     background: rgb(238, 238, 238);
     border: 2px solid white;
-    /* transform: scale(0.8); */
     border-radius: 15px;
 }
 
-.shadow{
-    box-shadow: -6px 10px 23px 0px rgba(0,0,0,0.5);
-    -webkit-box-shadow: -6px 10px 23px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: -6px 10px 23px 0px rgba(0,0,0,0.5);
+.shadow {
+    box-shadow: -6px 10px 23px 0px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: -6px 10px 23px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -6px 10px 23px 0px rgba(0, 0, 0, 0.5);
 }

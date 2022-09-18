@@ -11,11 +11,6 @@ const data = [
 const colors = ["#f81c1cd3", "#4848e7", "#fd7d27", "#16ed2c", "#5032d6"];
 
 const PieChartExample2 = () => {
-  const randomColor = (key) => {
-    console.log(key);
-    return colors[key];
-  };
-
   return (
     <div className={styles.dashboard}>
       <div width="100%" height="100%" className={styles.chartContainer}>
@@ -41,7 +36,7 @@ const PieChartExample2 = () => {
             {data.map((singleData, key) => {
               return (
                 <Cell
-                  fill={randomColor(key)}
+                  fill={colors[key]}
                   className={[styles.cell, styles.cellFx].join(" ")}
                 />
               );

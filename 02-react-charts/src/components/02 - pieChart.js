@@ -1,4 +1,10 @@
-import { PieChart, Pie, Cell, Label, Legend, LabelList } from "recharts";
+import {
+  PieChart,
+  Pie,
+  Cell,
+  Legend,
+  LabelList
+} from "recharts";
 
 const data = [
   { name: "Group A", value: 400 },
@@ -10,7 +16,7 @@ const data = [
 const PieChartExample = () => {
   return (
     <div width="100%" height="100%">
-      <PieChart width={600} height={600} id={true}>
+      <PieChart width={600} height={600}>
         <Pie
           data={data}
           cx="50%"

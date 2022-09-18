@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Geostar+Fill&family=Open+Sans:wght@600&family=Roboto:wght@500&family=Stalinist+One&display=swap');
 
-.dashboard{
+.dashboard {
     display: flex;
     justify-content: left;
     align-items: left;
     gap: 40px;
 }
 
-.dataCard{    
+.dataCard {
     display: flex;
     flex-direction: column;
     text-align: left;

@@ -13,7 +13,7 @@ function App() {
       {/* <BarChartExample/> */}
       {/* <PieChartExample/> */}
       {/* <PieChartExample2/> */}
-      <Dashboard/>
+      {/* <Dashboard/> */}
 
       </header>
     </div>

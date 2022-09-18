@@ -1,4 +1,4 @@
-import { PieChart, Pie, Cell, Label, Legend, LabelList } from "recharts";
+import { PieChart, Pie, Cell, Legend, LabelList } from "recharts";
 
 const data = [
   { name: "Group A", value: 400 },

@@ -6,8 +6,7 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
-  ResponsiveContainer,
+  Legend
 } from "recharts";
 
 import { data } from "../exampleData";

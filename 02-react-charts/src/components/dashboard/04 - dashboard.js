@@ -22,7 +22,6 @@ const Dashboard = () => {
                 </div>
                 <div className={[s.piechartContainer, s.shadow].join(" ")}>
                     <h3>Year activity [By Group]</h3>
-
                     <PieChartExample />
                 </div>
             </div>
