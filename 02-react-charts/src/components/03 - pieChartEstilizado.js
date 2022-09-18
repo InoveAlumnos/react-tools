@@ -1,6 +1,5 @@
 import { PieChart, Pie, Cell, Legend, LabelList } from "recharts";
 import styles from "./pieChartEstilizado.module.css";
-import { useState } from "react";
 
 const data = [
   { name: "Group A", value: 400 },
@@ -11,22 +10,7 @@ const data = [
 
 const colors = ["#f81c1cd3", "#4848e7", "#fd7d27", "#16ed2c", "#5032d6"];
 
-const DataCard = (props) => {
-  const { name, value, visible } = props;
-  const [visibility, setVisibility] = useState(visible);
-  const visibilityStatus =  visibility ? "visible" : "hidden" 
-  return (
-    <div className={styles.dataCard} style={{visibility:visibilityStatus}}>
-      <div>Data:</div>
-      <div>👉 Name: {name}</div>
-      <div>👉 Value: {value}</div>
-    </div>
-  );
-};
-
 const PieChartExample2 = () => {
-  const [state, setState] = useState(data[0]);
-  const [visibility, setVisibility] = useState(visible);
   const randomColor = (key) => {
     console.log(key);
     return colors[key];
@@ -59,7 +43,6 @@ const PieChartExample2 = () => {
                 <Cell
                   fill={randomColor(key)}
                   className={[styles.cell, styles.cellFx].join(" ")}
-                  onClick={()=>setState(singleData)}
                 />
               );
             })}
@@ -67,7 +50,6 @@ const PieChartExample2 = () => {
           <Legend verticalAlign="top" height={36} />
         </PieChart>
       </div>
-      <DataCard name={state.name} value={state.value} visibility={visibility} />
     </div>
   );
 };

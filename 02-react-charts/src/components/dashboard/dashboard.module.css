@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap');
+
+.title {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    width: 800px;
+    background: rgb(238, 238, 238);
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.container {
+    margin-top: -80px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    background: rgb(233, 233, 233);
+    transform: scale(0.8);
+    gap: 20px;
+}
+
+.lineBarChartsContainer {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    background: rgb(238, 238, 238);
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.piechartContainer {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    background: rgb(238, 238, 238);
+    border: 2px solid white;
+    /* transform: scale(0.8); */
+    border-radius: 15px;
+}
+
+.shadow{
+    box-shadow: -6px 10px 23px 0px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -6px 10px 23px 0px rgba(0,0,0,0.5);
+    -moz-box-shadow: -6px 10px 23px 0px rgba(0,0,0,0.5);
+}
