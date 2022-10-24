@@ -15,6 +15,8 @@ function App() {
       <header className="App-header">
       {/*00 - Ejemplo de importación de componente */}
       {/* <Button>👮‍♂️ Soy un botón!</Button> */}
+      {/* <Button style={{background:"#038A64"}}>Estilo personalizado</Button> */}
+      {/* <Button onClick={()=>console.log("mensaje")}>¡Y también hago cosas!</Button> */}
       
       {/*01 - Ejemplo de importación de componentes desde la documentación: */}
       {/* <AccordionExample></AccordionExample> */}
@@ -23,7 +25,7 @@ function App() {
 
       {/*02 - Ejemplo de armado de estructura: */}
       {/* <Page1></Page1> */}
-      <Page2></Page2>
+      {/* <Page2></Page2> */}
       
       </header>
     </div>
